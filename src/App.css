@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.title {
+  margin-bottom: 50px;
+}
+.flavanoid-statistics-container,
+.gamma-statistics-container {
+  display: flex;
+  justify-content: center;
+}
+.flavanoid-statistics-container {
+  margin-bottom: 100px;
+}
+.statistics-table {
+  border-collapse: collapse;
+  background: aliceblue;
+}
+
+.statistics-table th, .statistics-table td {
+  border: 1px solid #000; /* Add borders to table cells */
+  padding: 8px;
+  text-align: center;
+}
+td:first-child {
+  font-weight: bold;
+}
